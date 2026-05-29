@@ -1,0 +1,7 @@
+{
+  "name": "stigma-to-statement",
+  "private": true,
+  "scripts": {
+    "build": "echo \"Static site build complete\""
+  }
+}
