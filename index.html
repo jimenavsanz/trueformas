@@ -1,225 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stigmato Statement</title>
-    <meta
-      name="description"
-      content="Customized prosthetics designed as visible expressions of empowerment, identity, and collaboration."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./public/styles/site.css" />
-    <script defer src="./public/scripts/main.js"></script>
+    <title>Trueform</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body data-theme="transparent">
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="./index.html">
-          <span class="brand-mark">SS</span>
-          <span class="brand-text">Stigmato Statement</span>
-        </a>
-        <nav class="site-nav">
-          <a href="#story">Story</a>
-          <a href="#support">Fundraising</a>
-          <a href="#connect">Connect</a>
-          <a href="./hands.html">Hands</a>
-        </nav>
-      </header>
+  <body>
+    <header class="site-header">
+      <nav class="top-menu" aria-label="Primary">
+        <a class="brand" href="#home">Trueformas</a>
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#jimenas-story">Jimena's Story</a></li>
+          <li><a href="#the-hand">The Hand</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#case-studies">Case Studies</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <main>
-        <section class="hero" data-reveal>
-          <div class="hero-copy">
-            <p class="eyebrow">Emotional &amp; Strategic Prototype</p>
-            <h1>Customized prosthetics, reframed as empowerment tools.</h1>
-            <p class="hero-intro">
-              We design prosthetic hands that feel less like something to hide and more like
-              something to author. Every finish becomes a statement about dignity, identity,
-              and possibility.
-            </p>
-
-            <div class="cta-row">
-              <a
-                class="button button-primary"
-                href="mailto:hello@stigmatostatement.com?subject=Prototype%20Donation"
-              >
-                Support the hand
-              </a>
-              <a class="button button-secondary" href="#story">Read the story</a>
-              <a class="button button-ghost" href="#connect">Connect with us</a>
-              <a class="button button-ghost" href="#vision">Explore the vision</a>
-            </div>
-
-            <div class="style-switcher" aria-label="Hand finish styles">
-              <button class="style-chip is-active" data-style="transparent" type="button">
-                Transparent
-              </button>
-              <button class="style-chip" data-style="blue" type="button">
-                Blue / Traditional
-              </button>
-              <button class="style-chip" data-style="kintsugi" type="button">
-                Kintsugi
-              </button>
-            </div>
-
-            <div class="style-note" data-style-note>
-              Visible engineering, softened edges, and a lighter emotional footprint.
-            </div>
-          </div>
-
-          <div class="hero-stage">
-            <a class="hero-portrait-link" href="./hands.html" aria-label="Open hand details page">
-              <div class="hero-card" data-style-panel>
-                <div class="hero-card-topline">Click to explore the hands</div>
-                <img
-                  class="hero-image hero-image-transparent is-visible"
-                  src="./public/assets/hand-transparent.png"
-                  alt="Transparent concept rendering of a prosthetic hand touching a human hand"
-                />
-                <img
-                  class="hero-image hero-image-blue"
-                  src="./public/assets/hand-blue.jpg"
-                  alt="Traditional blue concept rendering of a prosthetic hand touching a human hand"
-                />
-                <img
-                  class="hero-image hero-image-kintsugi"
-                  src="./public/assets/hand-kintsugi.jpg"
-                  alt="Kintsugi concept rendering of a prosthetic hand touching a human hand"
-                />
-                <div class="hero-card-caption">
-                  Three emotional finishes. One shared purpose: turning stigma into statement.
-                </div>
-              </div>
-            </a>
-          </div>
-        </section>
-
-        <section class="mission-band" data-reveal>
-          <p>
-            Turning stigma into statement means reimagining a prosthetic not as a quiet medical
-            object, but as a visible tool of authorship. The hand is functional, personal, and
-            worthy of beauty.
+    <main>
+      <section id="home" class="page-section hero">
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            Customized prosthetics,<br>
+            reframed as tools<br>
+            of empowerment.
+          </h1>
+          <p class="hero-subtext">
+            We design prosthetic hands that feel less like something to hide <br> and more like 
+            something to author. Every finish becomes a statement<br> about dignity, identity, 
+            and possibility.
           </p>
-        </section>
-
-        <section class="info-grid">
-          <article class="panel panel-support" id="support" data-reveal>
-            <p class="eyebrow">Current Fundraising Goal</p>
-            <h2>Fund the first expressive-hand pilot.</h2>
-            <p>
-              Our immediate raise supports three parallel needs: prototype refinement, subsidized
-              pilot fittings, and collaboration with clinical and institutional partners who can
-              help validate both function and emotional impact.
-            </p>
-            <div class="support-meter">
-              <div class="support-meter-bar"></div>
+          <div class="button-row hero-actions">
+            <a class="cta-button" href="#jimenas-story">Learn More</a>
+            <a class="cta-button cta-button-secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            class="hero-image"
+            src="assets/HandsHeart.png"
+            alt="A human hand and a prosthetic hand forming a heart shape."
+          />
+        </div>
+      </section>
+      <section class="page-section origin-section">
+        <div class="origin-media">
+          <img
+            class="origin-image"
+            src="assets/JimenaHero.png"
+            alt="Jimena wearing a black dress and a white prosthetic hand."
+          />
+        </div>
+        <div class="origin-inner">
+          <h2 class="origin-title">Meet Jimena</h2>
+          <p class="origin-body">
+            Born without a fully developed hand, Jimena spent years adapting to
+            prosthetics that often fell short-not only in appearance, but in
+            comfort, fit, and everyday usability. Many devices felt clinical,
+            generic, and disconnected from the people who wore them. As a
+            designer and prosthetic user herself, she began asking a different
+            question: What if a prosthetic could be both functional and deeply
+            personal? Drawing from her own experiences, Jimena set out to
+            create prosthetics that prioritize
+            <strong>comfort, individuality, and self-expression.</strong> Her
+            work reframes prosthetics from something to hide into something
+            people can proudly wear as a reflection of who they are.
+          </p>
+          <a class="cta-button cta-button-light" href="#jimenas-story">Full Story</a>
+        </div>
+      </section>
+      <section class="support-band support-band-invest">
+        <div class="support-band-inner">
+          <div class="support-text">
+            <div class="fundraising-inner">
+              <h2 class="fundraising-title">Give us a hand</h2>
+              <p class="fundraising-body">
+                Help us bring TrueForm from concept to a functional, wearable
+                prototype. Funds raised will support the next phase of
+                development, including material research, prosthetic component
+                sourcing, digital modeling, fabrication, fit testing, comfort
+                studies, and iterative prototype refinement.
+              </p>
+              <a class="cta-button" href="#support">Support</a>
             </div>
-            <p class="support-meter-label">Prototype progress meter. Replace with live campaign data.</p>
-            <div class="panel-actions">
-              <a
-                class="button button-secondary"
-                href="mailto:hello@stigmatostatement.com?subject=Prototype%20Donation"
-              >
-                Donate to the pilot
-              </a>
-              <a class="text-link" href="#connect">Talk with us about funding or institutional support</a>
+          </div>
+          <div class="invest-image-wrap">
+            <img
+              class="invest-image"
+              src="assets/DonationHand.png"
+              alt="A translucent prosthetic hand with a decorative cover over a pink circle."
+            />
+          </div>
+        </div>
+      </section>
+      <section class="support-band support-band-join">
+        <div class="support-band-inner support-band-inner-reverse">
+          <div class="support-images support-images-join">
+            <img
+              class="gallery-image"
+              src="assets/Prosthetic Hand Research '26-458_CR.jpg"
+              alt="A person gesturing near a white prosthetic hand while wearing a prosthetic hand pendant."
+            />
+          </div>
+          <div class="support-text support-text-right">
+            <div class="join-inner">
+              <h2 class="join-title">Join Us</h2>
+              <p class="join-body">
+                We are looking to collaborate with people who share Jimena's
+                condition or have similar upper-limb differences and want to
+                help shape the future of personalized prosthetics. We are also
+                open to partnerships with prosthetic specialists, clinicians,
+                researchers, universities, and healthcare organizations.
+              </p>
+              <a class="cta-button cta-button-light" href="#contact">Contact Us</a>
             </div>
-          </article>
-
-          <article class="panel panel-story" id="story" data-reveal>
-            <p class="eyebrow">Why This Matters</p>
-            <h2>The story is not about concealment.</h2>
-            <p>
-              Too often, assistive devices are framed around blending in. We are prototyping a
-              different narrative: one where customization, material language, and patient
-              collaboration create prosthetics that feel chosen instead of tolerated.
+          </div>
+        </div>
+      </section>
+      <section class="stigma-section">
+        <div class="stigma-inner">
+          <div class="stigma-copy">
+            <h2 class="stigma-title">Stigma to Statement</h2>
+            <div class="stigma-divider" aria-hidden="true"></div>
+            <p class="stigma-body">
+              Turning stigma into statement means reimagining a prosthetic not
+              as a quiet medical object, but as a visible tool of authorship.
+              The hand is functional, personal, and worthy of beauty.
             </p>
-            <p>
-              This page is intentionally emotional because the product strategy is emotional too.
-              People do not just wear function. They wear meaning.
-            </p>
-          </article>
-        </section>
-
-        <section class="vision-section" id="vision" data-reveal>
-          <div class="section-heading">
-            <p class="eyebrow">Explore the Vision</p>
-            <h2>Build the category around agency, not apology.</h2>
           </div>
-
-          <div class="vision-grid">
-            <article class="vision-card">
-              <h3>Patient-led identity</h3>
-              <p>
-                Offer finishes and forms that let wearers choose how visible, expressive, or
-                symbolic their prosthetic should be.
-              </p>
-            </article>
-            <article class="vision-card">
-              <h3>Institutional credibility</h3>
-              <p>
-                Pair design ambition with rigorous prototyping, outcome tracking, and partnerships
-                that can support scale responsibly.
-              </p>
-            </article>
-            <article class="vision-card">
-              <h3>Cultural reframe</h3>
-              <p>
-                Shift public perception from deficit language toward authorship, artistry, and
-                practical empowerment.
-              </p>
-            </article>
+          <div class="stigma-media">
+            <img
+              class="stigma-image"
+              src="assets/stigma-to-statement.png"
+              alt="A lineup of prosthetic hands and components arranged across a table."
+            />
           </div>
-        </section>
-
-        <section class="connect-section" id="connect" data-reveal>
-          <div class="section-heading">
-            <p class="eyebrow">Connect With Us</p>
-            <h2>Collaboration can start with a patient, a lab, a clinic, or a believer.</h2>
-          </div>
-
-          <div class="connect-grid">
-            <article class="connect-card">
-              <h3>Patients &amp; families</h3>
-              <p>
-                Help shape what dignity, comfort, and visibility should actually feel like in the
-                final experience.
-              </p>
-            </article>
-            <article class="connect-card">
-              <h3>Institutions &amp; researchers</h3>
-              <p>
-                Partner on validation, pilot cohorts, human-centered testing, and translational
-                storytelling.
-              </p>
-            </article>
-            <article class="connect-card">
-              <h3>Donors &amp; collaborators</h3>
-              <p>
-                Support a prosthetics narrative that is clinically grounded and emotionally
-                resonant.
-              </p>
-            </article>
-          </div>
-
-          <div class="cta-row cta-row-footer">
-            <a class="button button-primary" href="mailto:hello@stigmatostatement.com?subject=Support%20the%20hand">
-              Support the hand
-            </a>
-            <a class="button button-secondary" href="mailto:hello@stigmatostatement.com?subject=Read%20the%20story">
-              Read the story
-            </a>
-            <a class="button button-ghost" href="mailto:hello@stigmatostatement.com?subject=Collaboration%20Inquiry">
-              Connect with us
-            </a>
-          </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+      <section id="jimenas-story" class="page-section"></section>
+      <section id="the-hand" class="page-section"></section>
+      <section id="support" class="page-section"></section>
+      <section id="contact" class="page-section"></section>
+      <section id="vision" class="page-section"></section>
+      <section id="case-studies" class="page-section"></section>
+    </main>
   </body>
 </html>
