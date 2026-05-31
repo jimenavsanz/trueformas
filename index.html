@@ -9,10 +9,10 @@
   <body>
     <header class="site-header">
       <nav class="top-menu" aria-label="Primary">
-        <a class="brand" href="#home">Trueformas</a>
+        <a class="brand" href="#home">Trueform</a>
         <ul class="menu-items">
           <li><a href="#home">Home</a></li>
-          <li><a href="#jimenas-story">Jimena's Story</a></li>
+          <li><a href="StoryPage.html">Jimena's Story</a></li>
           <li><a href="#the-hand">The Hand</a></li>
           <li><a href="#support">Support</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -24,14 +24,10 @@
     <main>
       <section id="home" class="page-section hero">
         <div class="hero-copy">
-          <h1 class="hero-title">
-            Customized prosthetics,<br>
-            reframed as tools<br>
-            of empowerment.
-          </h1>
+          <h1 class="hero-title">Customized prosthetics, reframed as tools of empowerment.</h1>
           <p class="hero-subtext">
-            We design prosthetic hands that feel less like something to hide <br> and more like 
-            something to author. Every finish becomes a statement<br> about dignity, identity, 
+            We design prosthetic hands that feel less like something to hide and more like
+            something to author. Every finish becomes a statement about dignity, identity,
             and possibility.
           </p>
           <div class="button-row hero-actions">
@@ -49,11 +45,14 @@
       </section>
       <section class="page-section origin-section">
         <div class="origin-media">
-          <img
-            class="origin-image"
-            src="assets/JimenaHero.png"
-            alt="Jimena wearing a black dress and a white prosthetic hand."
-          />
+          <picture class="origin-picture">
+            <source media="(max-width: 600px)" srcset="assets/JimenaHero-mobile.jpg" />
+            <img
+              class="origin-image"
+              src="assets/JimenaHero.png"
+              alt="Jimena posing with a white prosthetic hand."
+            />
+          </picture>
         </div>
         <div class="origin-inner">
           <h2 class="origin-title">Meet Jimena</h2>
@@ -70,7 +69,7 @@
             work reframes prosthetics from something to hide into something
             people can proudly wear as a reflection of who they are.
           </p>
-          <a class="cta-button cta-button-light" href="#jimenas-story">Full Story</a>
+          <a class="cta-button cta-button-light" href="StoryPage.html">Full Story</a>
         </div>
       </section>
       <section class="support-band support-band-invest">
@@ -124,19 +123,19 @@
       <section class="stigma-section">
         <div class="stigma-inner">
           <div class="stigma-copy">
-            <h2 class="stigma-title">Stigma to Statement</h2>
+            <h2 class="stigma-title">The Trueform Vision</h2>
             <div class="stigma-divider" aria-hidden="true"></div>
             <p class="stigma-body">
-              Turning stigma into statement means reimagining a prosthetic not
-              as a quiet medical object, but as a visible tool of authorship.
-              The hand is functional, personal, and worthy of beauty.
+              Trueform treats prosthetics as personal design objects as much
+              as functional tools. Each hand is shaped to support comfort,
+              expression, confidence, and everyday use in the real world.
             </p>
           </div>
           <div class="stigma-media">
             <img
               class="stigma-image"
               src="assets/stigma-to-statement.png"
-              alt="A lineup of prosthetic hands and components arranged across a table."
+              alt="A lineup of prosthetic hand studies and components arranged across a table."
             />
           </div>
         </div>
