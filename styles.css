@@ -816,7 +816,7 @@ main {
     margin-top: -3rem;
     margin-inline: 0;
     text-align: left;
-    transform: translate(2rem, 0rem)
+    transform: translate(1rem, 0rem)
   }
 
   .hero-subtext,
@@ -828,7 +828,7 @@ main {
     margin-bottom: 2rem;
     margin-inline: 0;
     text-align: left;
-    transform: translate(2rem, 0rem)
+    transform: translate(1rem, 0rem)
   }
 
   .hero-actions {
@@ -837,7 +837,7 @@ main {
     align-items: stretch;
     flex-wrap: nowrap;
     margin-bottom: 4rem;
-    transform: translate(2rem, 0rem)
+    transform: translate(1rem, 0rem)
   }
 
   .hero-actions .cta-button {
@@ -874,12 +874,12 @@ main {
   .origin-body {
     margin-top: 0rem;
     margin-bottom: 1rem;
-    transform: translate(1rem, 0rem);
+    transform: translate(0rem, 0rem);
     max-width: 28rem;
   }
 
   .origin-inner .cta-button {
-    transform: translate(1rem, 0rem);
+    transform: translate(0rem, 0rem);
     margin-bottom: 2rem;
   }
   .support-band,
@@ -983,7 +983,7 @@ main {
     margin-inline: 0;
     text-align: left;
     text-wrap: balance;
-    transform: translate(2rem, 0rem);
+    transform: translate(1rem, 0rem);
   }
 
   .fundraising-body,
@@ -995,15 +995,15 @@ main {
     margin-inline: 0;
     text-align: left;
     line-height: 1.55;
-    transform: translate(2rem, -1rem);
+    transform: translate(1rem, -1rem);
   }
 
   .fundraising-inner .cta-button{
     margin-bottom: 4rem;
-    transform: translate(2rem, 0rem);
+    transform: translate(1rem, 0rem);
   }
   .join-inner .cta-button {
-    transform: translate(2rem, -1rem);
+    transform: translate(1rem, -1rem);
     margin-bottom: 4rem;
   }
 }
