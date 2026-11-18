@@ -9,14 +9,20 @@
   <body>
     <header class="site-header">
       <nav class="top-menu" aria-label="Primary">
-        <a class="brand" href="#home">Trueforma</a>
+        <a class="brand" href="#home" aria-label="Trueformas home">
+          <img
+            class="brand-logo"
+            src="assets/trueformas-logo.png"
+            alt="Trueformas Empowering Mobility Aids"
+          />
+        </a>
         <ul class="menu-items">
           <li><a href="#home">Home</a></li>
           <li><a href="StoryPage.html">Jimena's Story</a></li>
-          <li><a href="#the-hand">The Hand</a></li>
-          <li><a href="#support">Support</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#case-studies">Case Studies</a></li>
+          <li><a href="Hands.html">The Hands</a></li>
+          <li><a href="Contact.html#support">Support</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="NewsPage.html">News &amp; Milestones</a></li>
         </ul>
       </nav>
     </header>
@@ -24,51 +30,67 @@
     <main>
       <section id="home" class="page-section hero">
         <div class="hero-copy">
-          <h1 class="hero-title">Customized prosthetics, reframed as tools of empowerment.</h1>
+          <h1 class="hero-title">Human-centered designed prosthetics, reframed as tools of empowerment.</h1>
           <p class="hero-subtext">
             We design prosthetic hands that feel less like something to hide and more like
             something to author. Every finish becomes a statement about dignity, identity,
             and possibility.
           </p>
           <div class="button-row hero-actions">
-            <a class="cta-button" href="#jimenas-story">Learn More</a>
-            <a class="cta-button cta-button-secondary" href="#contact">Contact</a>
+            <a class="cta-button" href="StoryPage.html">Learn More</a>
+            <a class="cta-button cta-button-secondary" href="Contact.html">Contact</a>
           </div>
         </div>
         <div class="hero-media">
           <img
             class="hero-image"
-            src="assets/HandsHeart.png"
-            alt="A human hand and a prosthetic hand forming a heart shape."
+            src="assets/HeroShot2.png"
+            alt="A decorated white-and-gold prosthetic hand touching a person's fingers."
           />
         </div>
       </section>
       <section class="page-section origin-section">
         <div class="origin-media">
-          <picture class="origin-picture">
-            <source media="(max-width: 600px)" srcset="assets/JimenaHero-mobile.jpg" />
+          <div class="origin-picture">
             <img
               class="origin-image"
-              src="assets/JimenaHero.png"
-              alt="Jimena posing with a white prosthetic hand."
+              src="assets/jimena-meet-homepage.jpg"
+              alt="Jimena looking at her prosthetic and natural hand."
             />
-          </picture>
+          </div>
         </div>
         <div class="origin-inner">
           <h2 class="origin-title">Meet Jimena</h2>
-          <p class="origin-body">
-            Born without a fully developed hand, Jimena spent years adapting to
-            prosthetics that often fell short-not only in appearance, but in
-            comfort, fit, and everyday usability. Many devices felt clinical,
-            generic, and disconnected from the people who wore them. As a
-            designer and prosthetic user herself, she began asking a different
-            question: What if a prosthetic could be both functional and deeply
-            personal? Drawing from her own experiences, Jimena set out to
-            create prosthetics that prioritize
-            <strong>comfort, individuality, and self-expression.</strong> Her
-            work reframes prosthetics from something to hide into something
-            people can proudly wear as a reflection of who they are.
-          </p>
+          <div class="origin-copy">
+            <p class="origin-body">
+              Born without a fully developed hand, Jimena spent years trying to
+              adapt to prosthetics before eventually abandoning them because
+              they often fell short, not only in appearance, but also in
+              comfort, fit, and everyday usability. Many devices felt clinical,
+              generic, and disconnected from the people who wore them. As both
+              a prosthetic user and an industrial designer, she began asking a
+              different question:
+              <strong
+                ><em
+                  >What if a prosthetic could be both highly functional and
+                  deeply personal?</em
+                ></strong
+              >
+            </p>
+            <p class="origin-body">
+              Motivated to bridge the medical field of orthotics and prosthetics
+              (O&amp;P) with the human-centered perspective of industrial design,
+              Jimena has explored the open-source Kinetic Hand through the
+              e-NABLE platform to improve socket fit while creating
+              opportunities for identity expression and personalization.
+            </p>
+            <p class="origin-body">
+              Designing these hands transformed the way Jimena relates to her
+              own body and the way others relate to it. That journey inspired
+              From Stigma to Statement, the belief that a prosthetic can be more
+              than a medical device; it can also be an expression of identity.
+            </p>
+          </div>
           <a class="cta-button cta-button-light" href="StoryPage.html">Full Story</a>
         </div>
       </section>
@@ -78,13 +100,34 @@
             <div class="fundraising-inner">
               <h2 class="fundraising-title">Give us a hand</h2>
               <p class="fundraising-body">
-                Help us bring TrueForm from concept to a functional, wearable
-                prototype. Funds raised will support the next phase of
-                development, including material research, prosthetic component
-                sourcing, digital modeling, fabrication, fit testing, comfort
-                studies, and iterative prototype refinement.
+                There are two ways you can support this mission.
               </p>
-              <a class="cta-button" href="#support">Support</a>
+              <p class="fundraising-option-title">
+                <strong>Support Jimena's Prosthetic Hand</strong>
+              </p>
+              <p class="fundraising-body">
+                Help fund the advanced functional prosthetic hand she needs
+                after her medical insurance denied coverage. Your support will
+                help provide the technology she relies on every day.
+              </p>
+              <a
+                class="cta-button fundraising-campaign-button"
+                href="https://www.gofundme.com/f/help-me-get-a-prosthetic-hand-to-regain-my-independence"
+                target="_blank"
+                rel="noreferrer"
+                >Fundraising Campaign</a
+              >
+              <p class="fundraising-option-title">
+                <strong>Support the Research</strong>
+              </p>
+              <p class="fundraising-body">
+                Help move this research from concept to real-world impact. Your
+                contribution will support material research, prosthetic
+                component sourcing, digital modeling, fabrication, fit testing,
+                user studies, and prototype refinement, bringing this
+                technology closer to providing more accessible, human-centered
+                prosthetic solutions for many others.
+              </p>
             </div>
           </div>
           <div class="invest-image-wrap">
@@ -101,21 +144,26 @@
           <div class="support-images support-images-join">
             <img
               class="gallery-image"
-              src="assets/Prosthetic Hand Research '26-458_CR.jpg"
-              alt="A person gesturing near a white prosthetic hand while wearing a prosthetic hand pendant."
+              src="assets/join-us-grant-photo.jpg"
+              alt="Jimena discussing prosthetic hand research with a collaborator."
             />
           </div>
           <div class="support-text support-text-right">
             <div class="join-inner">
               <h2 class="join-title">Join Us</h2>
               <p class="join-body">
-                We are looking to collaborate with people who share Jimena's
-                condition or have similar upper-limb differences and want to
-                help shape the future of personalized prosthetics. We are also
-                open to partnerships with prosthetic specialists, clinicians,
-                researchers, universities, and healthcare organizations.
+                With support from the NC Innovation Pipeline Grant, and
+                Appalachian State Universities's CONCERT Grant, we are working
+                to bring this research closer to real-world application. We are
+                looking to collaborate with people with upper-limb differences
+                who would like to help shape the future of personalized
+                prosthetics by participating in the research. We also welcome
+                partnerships with prosthetic specialists, clinicians,
+                researchers, universities, healthcare organizations, and others
+                who share our vision of creating more human-centered prosthetic
+                solutions.
               </p>
-              <a class="cta-button cta-button-light" href="#contact">Contact Us</a>
+              <a class="cta-button cta-button-light" href="Contact.html#join">Contact Us</a>
             </div>
           </div>
         </div>
@@ -134,8 +182,8 @@
           <div class="stigma-media">
             <img
               class="stigma-image"
-              src="assets/stigma-to-statement.png"
-              alt="A lineup of prosthetic hand studies and components arranged across a table."
+              src="assets/stigma-to-statement-20260603.jpg"
+              alt="Three prosthetic hand designs layered together on a white backdrop with a woven textile."
             />
           </div>
         </div>
@@ -145,7 +193,6 @@
       <section id="support" class="page-section"></section>
       <section id="contact" class="page-section"></section>
       <section id="vision" class="page-section"></section>
-      <section id="case-studies" class="page-section"></section>
     </main>
   </body>
 </html>

@@ -1,7 +1,7 @@
 {
-  "name": "stigma-to-statement",
+  "name": "stigma-to-statement-site",
   "private": true,
   "scripts": {
-    "build": "echo \"Static site build complete\""
+    "build": "rm -rf dist && mkdir -p dist && cp -R index.html StoryPage.html Hands.html Contact.html NewsPage.html styles.css assets dist/"
   }
 }
