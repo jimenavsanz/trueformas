@@ -688,10 +688,7 @@ main {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   padding: clamp(1.5rem, 0.7rem + 2vw, 3rem) 0;
-  transform: translate(
-    clamp(-0.2rem, -0.15vw, 0rem),
-    clamp(-5rem, -6vw, -1rem)
-  );
+  transform: translateY(clamp(-5rem, -6vw, -1rem));
 }
 
 .support-band + .support-band {
@@ -1018,6 +1015,7 @@ main {
   }
 
   .origin-section {
+    width: 100%;
     grid-template-columns: 1fr;
     gap: clamp(1rem, 0.7rem + 1vw, 1.5rem);
     padding: clamp(1.75rem, 1.2rem + 1.8vw, 2.5rem) clamp(0.75rem, 0.45rem + 0.8vw, 1rem) clamp(1rem, 0.7rem + 1vw, 1.5rem);
@@ -1027,6 +1025,18 @@ main {
   .origin-section::before {
     top: clamp(0rem, 0.5vw, 0.25rem);
     bottom: clamp(0rem, 0.5vw, 0.25rem);
+  }
+
+  .origin-media,
+  .origin-inner {
+    transform: none;
+  }
+
+  .origin-picture {
+    width: min(100%, 30rem);
+    height: auto;
+    aspect-ratio: 3 / 2;
+    margin-inline: auto;
   }
 
   .origin-inner {
@@ -1087,7 +1097,13 @@ main {
   }
 
   .invest-image-wrap {
+    min-width: 0;
     justify-content: center;
+  }
+
+  .invest-image {
+    width: min(100%, 40rem);
+    max-width: 100%;
   }
 
   .support-images {
@@ -1098,9 +1114,13 @@ main {
     height: clamp(11rem, 24vw, 15rem);
   }
 
+  .support-images-join {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .support-images-join .gallery-image {
     width: 100%;
-    height: clamp(14rem, 32vw, 19rem);
+    height: auto;
   }
 }
 
@@ -1203,14 +1223,9 @@ main {
     transform: none;
   }
 
-  .origin-picture {
-    aspect-ratio: 5 / 4;
-  }
-
   .origin-image {
-    object-position: center 18%;
-    transform:scale(1);
-    width: 100rem;
+    width: 100%;
+    object-position: center;
   }
 
   .origin-title,
@@ -1305,6 +1320,7 @@ main {
     width: 100%;
     max-width: 28rem;
     margin-right: auto;
+    padding-right: 1rem;
     text-align: left;
   }
 
